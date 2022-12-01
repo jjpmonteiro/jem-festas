@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    height: 350px;
+}
+
+.logo .imagem{
+    width: 400px;
+    max-width: 100%;
+}
+
+.cabecalho .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-principal{
+    background-color: #536286;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 5%;
+    background-color: rgba(53, 62, 86, 0.5);
+}
+
+.formulario .texto,
+.titulo{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.formulario .titulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.enviar{
+    width: 100px;
+}
+
+.fale-conosco .imagem{
+    width: 60%;
+}
+
+.conteudo-principal .fale-conosco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape .copyright{
+    margin-top: 70px;
+    text-align: center;
+}
