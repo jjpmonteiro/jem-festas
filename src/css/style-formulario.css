@@ -4,13 +4,16 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
 
 header{
     height: 350px;
 }
 
 .logo .imagem{
-    width: 400px;
+    width: 600px;
     max-width: 100%;
 }
 
@@ -20,15 +23,16 @@ header{
 }
 
 .conteudo-principal{
-    background-color: #536286;
+    background-color: #F9B233;
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
     padding: 50px;
+    margin-right: 270px;
     border-radius: 5%;
-    background-color: rgba(53, 62, 86, 0.5);
+    background-color: rgba(53, 62, 86, 0.226);
 }
 
 .formulario .texto,
@@ -47,7 +51,7 @@ header{
 }
 
 .fale-conosco .imagem{
-    width: 60%;
+    width: 50%;
 }
 
 .conteudo-principal .fale-conosco{
@@ -58,5 +62,6 @@ header{
 
 .rodape .copyright{
     margin-top: 70px;
+    margin-bottom: 30px;
     text-align: center;
 }
